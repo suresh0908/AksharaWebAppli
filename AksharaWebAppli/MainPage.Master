@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainPage.master.cs" Inherits="AksharaWebAppli.MainPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="../Content/menu.css" rel="stylesheet" type="text/css"/>
+    <link href="../Content/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="menu_bar">
+            <a href="../MainDefault">Home</a>
+            <a href="../contact">contact me</a>
+            <a href="../Login">Login</a>
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+         <div class="navbar-fixed-bottom" style="background-color :#534b4b;display:flexbox;color:white">
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Akshara Chit Fund Pvt.Ltd.,</p>
+            </footer>
+        </div>
+    </form>
+   
+</body>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+</html>

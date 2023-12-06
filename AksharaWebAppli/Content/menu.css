@@ -1,0 +1,111 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.menu_bar{
+    background-color :#534b4b;
+    height :80px;
+    width :100%;
+    color :white;
+    display :flex;
+    align-items :center ;
+    text-decoration :none ;
+    left :30px;
+}
+
+.menu_bar a
+{
+    color :white ;
+    text-decoration :none ;
+    margin-left :50px;
+}
+
+.menu_bar a:hover {
+     color :white ;
+    text-decoration :none ;
+}
+.menu_bar .icon{
+    display :none ;
+}
+
+.menu_bar ul{
+    list-style :none ;
+    display :block;
+    text-decoration :none ;
+}
+
+.menu_bar ul li {
+    padding : 10px 20px;
+    position :relative ;
+}
+
+.menu_bar ul li a{
+    color :white ;
+    text-decoration :none ;
+    font-size :12px;
+
+    transition :all 0.3s;
+}
+
+
+.dropdown_menu {
+    display :none ;
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display :block ;
+    position:absolute ;
+    left :0;
+    top :100%;
+    background-color :#0a6303;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul {
+    display :block;
+    margin :10px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+    width :150px;
+    padding :10px;
+}
+
+.dropdown_submenu {
+    display :none ;
+}
+
+.menu_bar ul li:hover .dropdown_submenu {
+    display :block ;
+    position :absolute ;
+    top :0;
+    left :150px;
+    background-color :#0a6303;
+}
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width:90px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+  .navbar-right .dropdown_menu {
+    right: 0;
+    left: auto;
+  }
+}
+@media screen and (min-width:992px){
+    .dropdown_submenu .dropdown_menu{margin-bottom: 2px;}
+    .navbar .navbar-nav .open .dropdown_submenu .dropdown_menu > li > a{padding-left: 25px;}
+    .navbar-default .navbar-nav .open .dropdown_menu .dropdown_submenu ul{background-color:#fff;}
+    .navbar-inverse .navbar-nav .open .dropdown_menu .dropdown_submenu ul{background-color:#fff;}
+}

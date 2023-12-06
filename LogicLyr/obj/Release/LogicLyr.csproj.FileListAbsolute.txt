@@ -1,0 +1,11 @@
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\bin\Release\LogicLyr.dll
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\bin\Release\LogicLyr.pdb
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\bin\Release\DataLyr.dll
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\bin\Release\ObjectLyr.dll
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\bin\Release\Npgsql.dll
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\bin\Release\Mono.Security.dll
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\bin\Release\DataLyr.pdb
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\bin\Release\ObjectLyr.pdb
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\obj\Release\LogicLyr.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\obj\Release\LogicLyr.dll
+C:\Users\user\Documents\Visual Studio 2013\AksharaWebAppli\LogicLyr\obj\Release\LogicLyr.pdb
